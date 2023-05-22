@@ -1,0 +1,58 @@
+body {
+    background-color: #7d1afe;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    margin-top: 50px;
+    color: wheat;
+}
+
+.credenziali {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.linker {
+    background-color: wheat;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+	display: block;
+	width: 400px; 
+	height: 70px;
+	margin: 30px;
+  
+}
+
+.linker:hover {
+    background-color: wheat;
+    color: #7d1afe;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #000000;
+}
+
+form {
+    display: inline-block;
+	margin-right: 20px;
+}

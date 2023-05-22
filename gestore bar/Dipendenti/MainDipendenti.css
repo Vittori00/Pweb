@@ -1,0 +1,34 @@
+body {
+  background-color: #7d1afe; /* viola ametista */
+  color: wheat; /* testo bianco */
+  font-family: Arial, sans-serif; /* font più spesso */
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center; /* centrato orizzontalmente */
+  margin-top: 20vh; /* centrato verticalmente */
+}
+
+#ore-lavoro {
+  text-align: center; /* centrato orizzontalmente */
+  margin-top: 5vh; /* poco sotto l'h1 */
+}
+
+table {
+  margin: auto; /* centrata orizzontalmente */
+  margin-top: 5vh; /* centrata verticalmente */
+  width: 80%; /* larghezza del 80% dello schermo */
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center; /* centrato */
+  background-color: wheat;
+  color: #7d1afe;
+  border: 4px solid black; /* bordo bianco */
+}
+
+
+

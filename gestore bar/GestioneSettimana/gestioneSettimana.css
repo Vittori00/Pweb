@@ -1,0 +1,169 @@
+body {
+    background-color: #7d1afe;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .elenco {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-top: 18%;
+    margin-bottom: 50px;
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    font-weight: 600;
+
+    margin: 20px;
+    font-size: 20px;
+  }
+  .contenitore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  form {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .inserimento{
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    background-color: wheat;
+    width: fit-content;
+    border-radius: 7px;
+  }
+  .inserimento button[type="submit"] {
+    margin-top: 4px;
+    padding: 10px 20px;
+    background-color: #7d1afe;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .inserimento button[type="submit"]:hover {
+    background-color: greenyellow;
+    color: #7d1afe;
+  }
+
+  .invia{
+    margin-top: 4px;
+  }
+  .bottone{
+    width: 7cm;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .bottone:hover {
+    background-color: wheat;
+    color: #7d1afe;
+  }
+  
+  
+
+  .inserimento > * {
+    color: black;
+    margin: 5px;
+    font-size: large;
+  }
+  .inserimento input , textarea {
+    border-radius: 5px;
+    
+  }
+  .inserimento label{
+    font-weight: 900;
+    font-size: x-large;
+  }
+  label {
+    margin-top: 20px;
+    font-size: 20px;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  select {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: wheat;
+    color: black;
+  }
+  
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: wheat;
+    color: #7d1afe;
+  }
+
+  
+  table {
+    margin: auto; /* centrata orizzontalmente */
+    margin-top: 27px; /* centrata verticalmente */
+    width: 80%; /* larghezza del 80% dello schermo */
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: center; /* centrato */
+    background-color: wheat;
+    color: #7d1afe;
+    border: 4px solid black; /* bordo bianco */
+  }
+  
+  .ritorno{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .ritorno > * {
+    margin: 20px;
+  }
+
